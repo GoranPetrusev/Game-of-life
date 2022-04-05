@@ -230,12 +230,13 @@ int main()
         PutString(screen, 0, 9,  L"7 Spaceships");
         PutString(screen, 0, 10, L"8 Reflection");
 
-        PutString(screen, 0, 60, L"C - Clear screen");
-        PutString(screen, 0, 61, L"LMB - Add live cell");
-        PutString(screen, 0, 62, L"RMB - Remove live cell");
-        PutString(screen, 0, 63, L"1-8 - Choose preset");
-        PutString(screen, 0, 64, L"SPACE - Start");
-        PutString(screen, 0, 65, L"CTRL - Stop");
+        PutString(screen, 0, 59, L"C - Clear screen");
+        PutString(screen, 0, 60, L"LMB - Add live cell");
+        PutString(screen, 0, 61, L"RMB - Remove live cell");
+        PutString(screen, 0, 62, L"1-8 - Choose preset");
+        PutString(screen, 0, 63, L"SPACE - Start");
+        PutString(screen, 0, 64, L"CTRL - Stop");
+        PutString(screen, 0, 65, L"ESC - Close program");
         PutString(screen, 0, 66, L"RIGHT ARROW - Step");
 
 
@@ -251,6 +252,3 @@ int main()
         }
     }
 }
-
-
-
